@@ -136,6 +136,10 @@ python3 prediction.py \
 
 # If you want to see the result visually, please use jupyter notebook
 2. ./src/visualize.ipynb
+*Example*
+cd show_attend_and_tell
+jupyter notebook
+
 
 # Evaluate using the csv file calculated by the above procedure.
 # The metrics is BLEU 1-4
