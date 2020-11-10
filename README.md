@@ -171,6 +171,7 @@ Hyper parameters of prediction model can be set using arguments. Details are as 
 ```
 # Result
 ## Visualize
+```
 1. set test img dir and set labels(filename,labels)
   root_img_dirc = "../data/img/"
   label_df = pd.read_csv("../data/label/val.csv")
@@ -179,9 +180,9 @@ Hyper parameters of prediction model can be set using arguments. Details are as 
 3. set ResNet model 
    ~/.torch/models/resnet152-b121ed2d.pth
 4. set encoder and decoder path
-encoder_model_path = "../data/model/encoder_0.pth"
-decoder_model_path = "../data/model/decoder_0.pth"
-
+  encoder_model_path = "../data/model/encoder_0.pth"
+  decoder_model_path = "../data/model/decoder_0.pth"
+```
 
 <img src="./demo/sample1.png" margin="50" width="500" title="sample1"> 
 <img src="./demo/sample2.png" margin="50" width="500" title="sample2"> 
