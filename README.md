@@ -144,7 +144,13 @@ jupyter notebook
 # Evaluate using the csv file calculated by the above procedure.
 # The metrics is BLEU 1-4
 3. ./src/bleu.py
+*Example*
+cd show_attend_and tell
+mkdir logs
+cd src
+python3 bleu.py  // save result to logs dir
 ```
+
 
 Hyper parameters of prediction model can be set using arguments. Details are as follows.
 ```
