@@ -124,6 +124,15 @@ Evaluate the test data with BLEU score using the trained model. The procedure is
                        [--vocab_path]  [--encoder_model_path]  [--decoder_model_path]  [--save_dirc]
                        [--vis_dim]  [--vis_num]  [--embed_dim]  
                        [--hidden_dim]  [--vocab_size]  [--num_layers]  [--dropout_ratio]  [--beam_size]
+**Example**
+cd src
+python3 prediction.py \
+--root_img_dirc ../data/img/ \
+--test_data_path ../data/label/val.csv \
+--vocab_path ../data/vocab/vocab.pkl \
+--encoder_model_path ../data/model/encoder_0.pth \
+--decoder_model_path ../data/model/decoder_0.pth \
+--save_dirc ../data/prediction/
 
 # If you want to see the result visually, please use jupyter notebook
 2. ./src/visualize.ipynb
